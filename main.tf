@@ -107,7 +107,7 @@ resource "azurerm_storage_account" "StrgACPRD" {
     environment = "staging"
   }
 }
-resource "azurerm_storage_account" "StrgDEV" {
+resource "azurerm_storage_account" "StrgACDEV" {
 
   name                     = "storageacdevhbs"
   resource_group_name      = azurerm_resource_group.StrgDEV.name
